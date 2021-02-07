@@ -53,7 +53,7 @@ const Detail = () => {
 
   return (
     <ImageBackground
-      source={{ uri: `http://192.168.0.210:3333/${character.imagePath}`}}
+      source={{ uri: `https://mobile-marvel-backend-v1.herokuapp.com/${character.imagePath}`}}
       style={styles.container}
     >
       <LinearGradient
@@ -151,7 +151,7 @@ const Detail = () => {
               <View key={movie} style={{ marginRight: 10 }}>
                 <Image
                   source={{
-                    uri: `http://192.168.0.210:3333/${movie}`
+                    uri: `https://mobile-marvel-backend-v1.herokuapp.com/${movie}`
                   }}
                   style={styles.image}
                 />

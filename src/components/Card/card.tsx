@@ -11,7 +11,7 @@ const Card: React.FC<ICharacter> = ({ name, alterEgo, imagePath }) => {
   return (
     <View style={styles.container }>
       <Image
-        source={{ uri: `http://192.168.0.210:3333/${imagePath}`}}
+        source={{ uri: `https://mobile-marvel-backend-v1.herokuapp.com/${imagePath}`}}
         style={styles.image}
       />
       <Text style={styles.alterEgo}>{alterEgo}</Text>
